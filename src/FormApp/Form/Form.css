@@ -1,0 +1,38 @@
+.form {
+    width: 40%;
+    padding: 1rem;
+    background-color: rgb(175, 232, 255);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.212), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    display: inline-block;
+    margin: 0.5rem 0;
+    border: 1px solid rgb(0, 0, 0);
+}
+
+.form label{
+    color: black;
+    padding: .5rem;
+    margin-bottom: 0.2rem;
+    display: block;
+}
+
+.form input{
+    display: inline-block;
+    border: 1px solid rgb(0, 123, 172);
+    font-family: sans-serif;
+    line-height: 1.5rem;
+    padding: 0 0.25rem;
+    text-align: left;
+}
+
+.form button{
+    padding: 5px;
+    width: 100px;
+    border: 1px solid rgb(0, 31, 59);
+    background-color: rgb(158, 208, 255);
+}
+
+.form button:hover{
+    background-color: rgba(0, 84, 153, 0.589);
+    color: white;
+}
+

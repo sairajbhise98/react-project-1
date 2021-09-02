@@ -1,0 +1,35 @@
+.center {
+  margin-left: auto;
+  margin-right: auto;
+  width: 40%;
+  background-color: rgb(175, 232, 255);
+  padding: 2rem;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.212), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  border: 1px solid black;
+}
+
+.table {
+  text-align: center;
+}
+
+.table tr {
+  padding: 1rem;
+}
+
+.table th {
+  padding: 1rem;
+}
+
+.table td {
+  padding: 1rem;
+}
+.table button {
+  width: 70px;
+  border: none;
+  height: 30px;
+  color: white;
+  background-color: rgb(204, 33, 33);
+}
+.table button:hover {
+  background-color: brown;
+}
