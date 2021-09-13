@@ -1,0 +1,22 @@
+Assignment No : 4
+Assignment Name : Searching in Table
+App Name : Form-App
+--------------------------------------------------------------------
+Requirements
+
+1. Node (version v16.6.1)
+   Download Link - https://nodejs.org/download/release/v16.6.1/
+
+2. Firebase (version v8.1.1)
+   Command : $npm i firebase@^8.1.1 --save
+
+3. Active Internet
+--------------------------------------------------------------------
+Details : Searching in Table
+
+1.Database : firebase (firestore)
+2.Fields : a) First Name  (String)
+           b) Last Name   (String)
+           c) Age         (String)
+           d) City        (String)
+           e) Id          (number)

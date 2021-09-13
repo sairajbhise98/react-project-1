@@ -54,6 +54,7 @@ const Form = (props) => {
             setAge(e.target.value);
           }}
           step="1"
+          min="1"
           required
         />
         <label>City</label>

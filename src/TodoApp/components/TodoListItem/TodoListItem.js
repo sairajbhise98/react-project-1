@@ -23,9 +23,9 @@ const TodoListItem = ({ todo, inprogress, id, db }) => {
         />
       </ListItem>
       <Button onClick={toggleInProgress}>
-        {inprogress ? "Done" : "UnDone"}
+        {inprogress ? "Done" : "Undo"}
       </Button>
-      <Button onClick={deleteTodo}>X</Button>
+      <Button onClick={deleteTodo} style={{color: 'red'}}>Del</Button>
     </div>
   );
 };
